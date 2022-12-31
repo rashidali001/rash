@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>RASH | Software Developer</title>
+    <!--Custom css-->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body id="body" onload="loading()">
+    <!--Loading Icon--> 
+    <div id="loader"></div>
+    <!--Main content-->
+    <main id="main">
+        <!--Navigation-->
+        <nav>
+            <div class="logo">
+                <h2><span style="color: #00d4ff">R</span>ASH</h2>
+            </div>
+            <div class="links">
+                <a href="https://drive.google.com/file/d/1YGniLhKUuvrRYPCHRWxpZqsbJqn0gNwh/view?usp=sharing" target="_blank">Download Cv</a>
+                <a href="#project_section">My projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <!--Social links-->
+        <div class="social">
+            <a href="https://github.com/rashidali001"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rashidbakari/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/rashidali_b"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rash_tech00/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <!--Intro section-->
+        <section class="intro">
+            <div class="description">
+                <h3>Hi, There  <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" height="24px" width="24px" alt="hi"></h3>
+                <h1>I Am <span class="input"></span></h1>
+                <p>Growing up as the son of successful entrepreneurs, I always understood the value of hard work and dedication. As a Software Engineer and Web developer, my hard work has certainly paid off in spades. I completed multiple projects which have broaden my expertise in this field.</p>
+                <a href="https://drive.google.com/file/d/1YGniLhKUuvrRYPCHRWxpZqsbJqn0gNwh/view?usp=sharing" class="btn-cv" target="_blank"> Download Cv </a>
+            </div>
+            <div class="image">
+                <img src="./images/profile1.jpg" alt="profile">
+            </div>
+        </section>
+
+        <!--About me-->
+        <section class="about">
+            <div class="profile">
+                <img src="./images/intro.svg" alt="intro">
+            </div>
+            <div class="profile_info">
+                <h1 id="about"><span style="border-bottom: 1px solid #00d4ff; padding-bottom: 10px;">About me</span></h1>
+                <p>My ability to do projects as well as think outside the box has earned me a stellar reputation among my peers. While not coding, I enjoy cooking, watching movies and spending time with my family </p>
+                <div class="categories">
+                    <a onclick="skills()" id="skill">Skills</a>
+                    <a onclick="education()" id="edu">Education</a>
+                </div>
+                <div class="categories_info">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <div>
+                        <p>AFRICAN LEADERSHIP X</p>
+                        <div class="dates">
+                            <p>Software Engineering</p>
+                            <p>June 2022 - July 2023</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>JKUAT University</p>
+                        <div class="dates">
+                            <p>Bsc Mathematics and Computer Science</p>
+                            <p>Sep 2018 - Sep 2022</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p>JKUAT School of Computing</p>
+                        <div class="dates">
+                            <p>Cisco Certified Network Associate</p>
+                            <p>March 2022 - July 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Stats-->
+        <section class="stats">
+            <div class="stats_heading">
+                <div></div>
+                <h1>My Coding Stats</h1>
+                <div></div>
+            </div>
+            <div class="stat-wrapper">
+                <div>
+                    <img src="./images/piechart.svg" alt="piechart">
+                </div>
+                <figure>
+                    <embed src="https://wakatime.com/share/@fa16291f-4e49-4666-aac0-4f2b693ed97b/12f25794-2b30-45e0-a272-8800ef5a092b.svg"></embed>
+                </figure>
+            </div>         
+        </section>
+
+        <!--Projects-->
+        <section class="projects" id="project_section">
+            <div class="stats_heading">
+                <div></div>
+                <h1>My Projects</h1>
+                <div></div>
+            </div>
+            <div class="project_wrapper">
+                <div class="project">
+                    <a href="https://superb-mochi-1c0183.netlify.app/" target="_blank">
+                        <img src="./images/huddle.jpg" alt="Huddle website">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://elaborate-choux-6088d0.netlify.app/" target="_blank">
+                        <img src="./images/Fylo.jpg" alt="Fylo website">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://prismatic-duckanoo-2d2f0a.netlify.app/" target="_blank">
+                        <img src="./images//manage.jpg" alt="Manage website">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://zippy-marshmallow-2e3738.netlify.app/" target="_blank">
+                        <img src="./images/Ecom.jpg" alt="Ecom website">
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="https://bespoke-travesseiro-bdb6c2.netlify.app/" target="_blank">
+                        <img src="./images/chart.jpg" alt="Chart website">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+
+        <footer id="contact">
+            <div class="newsletter" id="connect">
+                <h3>Let's Connect</h3>
+                <div class="form" name="form">
+                    <form action="https://formsubmit.co/rash.bakari0@gmail.com" method="POST">
+                        <input type="text" name="email" placeholder="email@gmail.com" class="email" required autocomplete="off">
+                        <textarea name="message" id="msg" cols="30" rows="5" placeholder="Message.." required autocomplete="off" ></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                  
+                </div>
+
+              </div>
+
+              <div class="socials_footer">
+                <a href="https://github.com/rashidali001"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rashidbakari/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/rashidali_b"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rash_tech00/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+
+              <div class="copyright">
+                Copyright&copy; 2022,RASH
+              </div>
+          
+
+        </footer>
+
+    </main>
+
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/4f2d06e34d.js" crossorigin="anonymous"></script>
+
+<!--Custom scripts-->
+<script src="./scripts/animate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".input", {
+    strings: ["Rashid Ali.", "A Web Developer.", "A Software Engineer."],
+    typeSpeed: 70,
+    backSpeed: 60,
+    loop:true
+});
+</script>
+</body>
+</html>
